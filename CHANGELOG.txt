@@ -1,0 +1,17 @@
+
+JSRPG_0.1-0	SS	2015-05-28
+
+	Initial commit of all related files:
+		/index.html
+		/POA.txt
+		/CHANGELOG.txt
+		/css/styles!.css - (from the ssh-js project; probably won't use)
+		/js/core.js
+		/js/calcs.js
+		/js/db.js
+		/js/jqeury.js
+		/extras/
+			random stuff in here. Most notably:
+				/damageFormula/ & /damageGraph/
+				/v0.1.jpg
+				/v0.1a.jpg

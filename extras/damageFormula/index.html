@@ -3,9 +3,11 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>JSRPG</title>
-  <meta name="description" content="JSRPG">
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+  <title>Base Damage Output viewer</title>
+  <meta name="description" content="Base Damage">
+
+
   <script type="text/javascript" src="js/jquery.js"></script>
   <script type="text/javascript" src="js/db.js"></script>
   <script type="text/javascript" src="js/core.js"></script>
@@ -15,17 +17,16 @@
   <div id="mainContainer">
     <div id="screen">
       <div class="topcntnt">
-        <p>JS RPG</p>
+        <p>Base Damage based on Strength stat (1-255) - Defence not taken into account</p>
         <hr>
       </div>
       <div id="output">
         
       </div>
     </div>
-	<button id="attack">Attack</button>
-	<button id="bmagic">Black Magic</button>
-	<button id="wmagic">White Magic</button>
-	<button id="item">Item</button>
+    <span class="textCarat">A:/ &nbsp;<input type="text" name="txtinput" id="txtinput"></span>
   </div>
+
+
 </body>
 </html>

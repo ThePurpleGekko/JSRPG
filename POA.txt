@@ -1,0 +1,64 @@
+v0.1a
+
+	Get Minimum Viable Product on the screen:
+
+	1 player character
+	1 enemy
+	"attack" button working
+	player HP displayed and working
+	enemy HP displayed and working
+	
+v0.1b
+
+	enemy attacks player after every player attack
+	magic and item buttons open up sub-menus, can use magic to attack or heal using base damage formula, items have fixed amounts of healing and damage
+	
+v0.1c
+
+	MP is displayed
+	magic uses MP
+	items have a limited number, get used up
+	enemy uses magic (chosen at random)& MP
+
+	:: At this point, start to think about incorporating more characters, each with own stats, HP & MP.
+		Also multiple enemies chosen at random at the start of battle.
+		Big factor here is how to incorporate the speed stat of each mob.
+	
+--------------------
+
+Style:
+
+	input buttons in footer
+	display MP
+	magic and item menus with more options:
+		black magic (elemental):
+			fire
+			electric
+			ice
+			water
+			metal
+			light
+			dark
+		white magic:
+			heal
+			protection
+		items:
+			items that do a combination of these ^
+	magic uses MP
+	items perish
+	damage number animation
+	attack animations (attacker sprite ramming into defending sprite)
+	
+--------------------
+
+General Ideas:
+
+A lot of inspiration from FF10 and a bit from marvel universe!
+
+characters don't have a "level", just train to increase stats. Still use XP system, FF10 style. - NEED CHARACTER DEVELOPMENT PLAN.
+
+7 elements (fire, electric, ice, water, metal, light, dark) - strengths and weaknesses need balancing.
+7 character, one subtly associated with each element
+I like the number 7.
+stats go up to 100 each, but elemental stones are found optionally (one per element)
+elemental stones are rarity not mentioned in canon story, allow stats for designated character to reach 255 and break damage limit (9,999) to reach new damage limit (99,999).
