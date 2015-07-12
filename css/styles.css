@@ -1,0 +1,110 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#container {
+	min-height: 100%;
+	position: relative;
+	height: 100%;	/* for IE 6 and 5.5 */
+}
+
+#header {
+	background: #6cf;
+	padding: 10px;
+	border-bottom: 1px solid black;
+}
+
+#body {
+	padding-bottom: 60px;	/* Height of the footer */
+	height: 50%;
+}
+
+#feed {
+	margin: 10px;
+}
+
+.maincontent {
+	width: 42.5%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.mob {
+	border: 1px solid black;
+	margin: 10px;
+	padding: 10px;
+	width: 300px;
+	height: 60px;
+}
+
+.turn {
+	/* to highlight the mob who's turn it is --- (maybe also style a mob who is targeted?)*/
+	border: 1px solid #6CF;
+	margin: 10px;
+	padding: 10px;
+	width: 300px;
+	height: 60px;
+	background-color:#CEF;
+}
+
+.ko {
+	border: 1px solid #900;
+	margin: 10px;
+	padding: 10px;
+	width: 300px;
+	height: 60px;
+	background-color:#F99;
+}
+
+#heroBox{
+	float: left;
+}
+
+#enemyBox {
+	float: right;
+}
+
+menu {
+	vertical-align: middle;
+	width: 900px;
+	float: left;
+}
+
+menu ul {
+	vertical-align: middle;
+	list-style-type: none;
+	float: left;
+}
+
+menu ul li {
+	margin-right: 15px;
+	vertical-align: middle;
+	width: auto;
+	float: left;
+	padding: 10px;
+	border: 1px solid black;
+	background: #6cf;
+}
+
+#info {
+	margin: 10px;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background: #cef;
+	border-top: 1px solid black;
+}
+
+p {
+	margin:0px;
+}
+
+#footer p {
+	float: left;
+	margin: 20px;
+}
